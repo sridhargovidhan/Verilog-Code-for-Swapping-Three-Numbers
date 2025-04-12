@@ -32,6 +32,7 @@ Save and Document Results:
 Capture the waveform output and include the results in your report for verification.
 
 Verilog Code:
+```
 1) BLOCKING 
 module swap_three_numbers( input[7:0]a_in,
 input[7:0]b_in,
@@ -48,12 +49,13 @@ b_out = c_in;
 c_out = a_in;
 end
 endmodule
-
+```
 OUTPUT:
 ![Screenshot 2025-04-12 143144](https://github.com/user-attachments/assets/1d26ee8c-4c49-4fe5-be52-07c03b931c27)
 
 2) NON BLOCKING
-   module swap_three_numbers( input[7:0]a_in,
+ ```
+  module swap_three_numbers( input[7:0]a_in,
 input[7:0]b_in,
 input[7:0]c_in,
 output reg [7:0]a_out,
@@ -66,11 +68,12 @@ a_out <= b_in;
 b_out <= c_in;
 c_out <= a_in;
 endmodule
-
+```
 OUTPUT:
 ![Screenshot 2025-04-12 143451](https://github.com/user-attachments/assets/aa471c12-f822-4587-9b04-e114ce66f7b7)
 
 3) BLOCKING
+```
 module swap;
 reg[3:0]a,b,c;
        initial
@@ -85,11 +88,12 @@ reg[3:0]a,b,c;
    c=a;
    end
 endmodule
-
+```
 OUTPUT:
 ![Screenshot 2025-04-12 141112](https://github.com/user-attachments/assets/e63f02bc-0625-488a-8d57-3802e6b70221)
 
 4)NON BLOCKING
+```
 module swap;
 reg[3:0]a,b,c;
        initial
@@ -104,7 +108,7 @@ reg[3:0]a,b,c;
    c<=a;
    end
 endmodule
-
+```
 OUTPUT:
 ![Screenshot 2025-04-12 142434](https://github.com/user-attachments/assets/ef40662f-7559-4e23-980b-c85558111e5c)
 
