@@ -51,7 +51,7 @@ end
 endmodule
 ```
 ## OUTPUT:
-![Screenshot 2025-04-12 143144](https://github.com/user-attachments/assets/1d26ee8c-4c49-4fe5-be52-07c03b931c27)
+![Screenshot 2025-04-12 143451](https://github.com/user-attachments/assets/aa471c12-f822-4587-9b04-e114ce66f7b7)
 
 2) NON BLOCKING
  ```
@@ -70,7 +70,7 @@ c_out <= a_in;
 endmodule
 ```
 ## OUTPUT:
-![Screenshot 2025-04-12 143451](https://github.com/user-attachments/assets/aa471c12-f822-4587-9b04-e114ce66f7b7)
+![Screenshot 2025-04-12 143144](https://github.com/user-attachments/assets/1d26ee8c-4c49-4fe5-be52-07c03b931c27)
 
 3) BLOCKING
 ```
